@@ -126,7 +126,14 @@ function App() {
     }, [contract]);
 
     return (
-        <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+        <div
+            style={{
+                  padding: "20px",
+                  fontFamily: "Arial, sans-serif",
+                  minHeight: "100vh",
+                  background: "linear-gradient(135deg, #020617, #0f172a, #1e293b)",
+                  color: "#f9fafb",
+    }}>
             <h1>DAO-Managed Crowdfunding</h1>
 
             {!account ? (
