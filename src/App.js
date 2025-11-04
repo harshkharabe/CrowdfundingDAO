@@ -169,10 +169,13 @@ function App() {
               <div
                 key={c.id}
                 style={{
-                  border: "1px solid #ccc",
-                  padding: "15px",
-                  margin: "15px 0",
-                  borderRadius: "10px",
+                  border: "1px solid #1f2937",           // darker border
+                  backgroundColor: "#0f172a",             // deep navy background
+                  padding: "20px",
+                  margin: "20px 0",
+                  borderRadius: "12px",
+                  boxShadow: "0 4px 20px rgba(0, 0, 0, 0.4)", // subtle glow
+                  color: "#e2e8f0",                       // light text for dark mode,
                 }}
               >
                 <h3>{c.title}</h3>
