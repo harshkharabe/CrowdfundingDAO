@@ -15,3 +15,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* === Custom button theme === */
+
+.btn-success {
+  background-color: #22c55e;  /* green */
+  border-color: #22c55e;
+  color: #ffffff;
+}
+
+.btn-success:hover {
+  background-color: #16a34a;
+  border-color: #16a34a;
+}
+
+.btn-primary {
+  background-color: #6366f1;  /* indigo */
+  border-color: #6366f1;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+.btn-warning {
+  background-color: #f97316;  /* orange for NO vote */
+  border-color: #f97316;
+  color: #111827;
+}
+
+.btn-warning:hover {
+  background-color: #ea580c;
+  border-color: #ea580c;
+}
